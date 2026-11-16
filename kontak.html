@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alamat, jam operasional, dan formulir kontak Toko Sadam.">
+    <title>Kontak | Toko Sadam</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Toko Sadam - Beranda">
+                <span class="brand-mark" aria-hidden="true">TS</span>
+                <span class="brand-name">Toko <strong>Sadam</strong><small>Kebutuhan sehari-hari</small></span>
+            </a>
+            <nav class="site-nav" aria-label="Navigasi utama">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="katalog.html">Katalog</a></li>
+                    <li><a href="kontak.html" aria-current="page">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow">HUBUNGI KAMI</p>
+                <h1>Kami siap menyambut <span>kunjungan Anda.</span></h1>
+                <p>Temukan lokasi umum dan informasi jam operasional Toko Sadam.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <div class="contact-details">
+                    <article class="contact-item">
+    <span class="contact-icon">⌖</span>
+    <div>
+        <h3>Alamat Toko Sadam</h3>
+        <p>Jl.Gg,masjid al-istiqomah,Sarang Mandi,Sungai Selan,</p>
+
+        <a href="https://maps.app.goo.gl/EZQ6qAejn7K2CZSh9"
+           target="_blank"
+           rel="noopener noreferrer">
+            Lihat Lokasi di Google Maps
+        </a>
+    </div>
+ </article>
+                        <span class="contact-icon" aria-hidden="true">◷</span>
+                        <div>
+                            <h2>Jam operasional</h2>
+                            <p>Setiap hari, pukul 06.00–22.00 WIB.</p>
+                        </div>
+                    </article>
+                    <article class="contact-card">
+                        <span class="contact-icon" aria-hidden="true">◎</span>
+                        <div>
+                            <h2>Kontak dan media sosial</h2>
+                            <p>Nomor telepon dan akun media sosial belum tersedia.</p>
+                        </div>
+                    </article>
+
+                    <div class="table-wrap">
+                        <h2>Informasi operasional</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Hari</th>
+                                    <th scope="col">Jam buka</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Senin–Minggu</td><td>06.00–22.00 WIB</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <section class="form-panel" aria-labelledby="form-title">
+                    <p class="eyebrow">FORMULIR</p>
+                    <h2 id="form-title">Kirim pesan</h2>
+                    <p class="form-intro">Isi kolom berikut untuk latihan formulir kontak. Formulir ini belum terhubung ke sistem pengiriman pesan.</p>
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <label for="nama">Nama lengkap</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Alamat email</label>
+                            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telepon">Nomor HP</label>
+                            <input type="tel" id="telepon" name="telepon" pattern="[0-9]{10,13}" title="Masukkan 10 sampai 13 digit angka tanpa spasi atau tanda baca." placeholder="Contoh: 081234567890" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="keperluan">Keperluan</label>
+                            <select id="keperluan" name="keperluan" required>
+                                <option value="" selected disabled>-- Pilih keperluan --</option>
+                                <option value="informasi-produk">Informasi produk</option>
+                                <option value="informasi-harga">Informasi harga</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea id="pesan" name="pesan" rows="5" minlength="10" maxlength="500" placeholder="Tulis pesan minimal 10 karakter" required></textarea>
+                            <small>Minimal 10 dan maksimal 500 karakter.</small>
+                        </div>
+                        <button class="button button-primary form-button" type="submit">Periksa dan kirim formulir</button>
+                    </form>
+                </section>
+            </div>
+        </section>
+
+        <section class="section section-soft">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">PETA LOKASI</p>
+                    <h2>Area Desa Sarang Mandi</h2>
+                    <p>Peta menunjukkan area desa secara umum, bukan titik persis toko karena alamat lengkap belum tersedia.</p>
+                </div>
+                <div class="map-frame">
+                    <iframe title="Peta area Desa Sarang Mandi, Kecamatan Sungai Selan" src="https://www.google.com/maps?q=Desa%20Sarang%20Mandi%2C%20Kecamatan%20Sungai%20Selan&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p><strong>Toko Sadam</strong> · Toko kelontong kebutuhan sehari-hari.</p>
+            <p class="footer-small">Desa Sarang Mandi, Kecamatan Sungai Selan</p>
+        </div>
+    </footer>
+</body>
+</html>
